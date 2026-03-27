@@ -1,0 +1,41 @@
+[
+  { "id": 1, "name": "Virat Kohli", "role": "Batsman", "battingStyle": "Right-Hand Bat", "team": "India", "price": 1200, "rating": 4.9, "matches": 275, "image": "https://i.ibb.co.com/XZwbJMMt/Virat-Kohli.webp" },
+
+  { "id": 2, "name": "Babar Azam", "role": "Batsman", "battingStyle": "Right-Hand Bat", "team": "Pakistan", "price": 1150, "rating": 4.8, "matches": 220, "image": "https://i.ibb.co.com/8DVSp88n/Babar-Azam.avif" },
+
+  { "id": 3, "name": "Steve Smith", "role": "Batsman", "battingStyle": "Right-Hand Bat", "team": "Australia", "price": 1100, "rating": 4.7, "matches": 240, "image": "https://i.ibb.co.com/KjKvgDSX/Steve-Smith.webp" },
+
+  { "id": 4, "name": "Joe Root", "role": "Batsman", "battingStyle": "Right-Hand Bat", "team": "England", "price": 1050, "rating": 4.6, "matches": 230, "image": "https://i.ibb.co.com/9kVkrfWB/Joe-Root.jpg" },
+
+  { "id": 5, "name": "Rohit Sharma", "role": "Batsman", "battingStyle": "Right-Hand Bat", "team": "India", "price": 1180, "rating": 4.8, "matches": 260, "image": "https://i.ibb.co.com/sTG64PL/Rohit-Sharma.avif" },
+
+  { "id": 6, "name": "David Warner", "role": "Batsman", "battingStyle": "Left-Hand Bat", "team": "Australia", "price": 1080, "rating": 4.5, "matches": 210, "image": "https://i.ibb.co.com/Y7BXPqkz/images.jpg" },
+
+  { "id": 7, "name": "Kane Williamson", "role": "Batsman", "battingStyle": "Right-Hand Bat", "team": "New Zealand", "price": 1120, "rating": 4.7, "matches": 200, "image": "https://i.ibb.co.com/6RW5wP6m/Kane-Williamson.webp" },
+
+  { "id": 8, "name": "Shakib Al Hasan", "role": "All-Rounder", "battingStyle": "Left-Hand Bat", "bowlingStyle": "Left-Hand Bowler", "team": "Bangladesh", "price": 1250, "rating": 4.9, "matches": 300, "image": "https://i.ibb.co.com/QFxMgbBD/Shakib-Al-Hasan.webp" },
+
+  { "id": 9, "name": "Ben Stokes", "role": "All-Rounder", "battingStyle": "Left-Hand Bat", "bowlingStyle": "Right-Hand Bowler", "team": "England", "price": 1300, "rating": 4.8, "matches": 190, "image": "https://i.ibb.co.com/JjRP6GsK/Ben-Stokes.jpg" },
+
+  { "id": 10, "name": "Hardik Pandya", "role": "All-Rounder", "battingStyle": "Right-Hand Bat", "bowlingStyle": "Right-Hand Bowler", "team": "India", "price": 1220, "rating": 4.6, "matches": 160, "image": "https://i.ibb.co.com/Kp98BQtc/Hardik-Pandya.jpg" },
+
+  { "id": 11, "name": "Glenn Maxwell", "role": "All-Rounder", "battingStyle": "Right-Hand Bat", "bowlingStyle": "Right-Hand Bowler", "team": "Australia", "price": 1200, "rating": 4.5, "matches": 180, "image": "https://i.ibb.co.com/RkCYG1k5/Glenn-Maxwell.jpg" },
+
+  { "id": 12, "name": "Jasprit Bumrah", "role": "Bowler", "bowlingStyle": "Right-Hand Bowler", "team": "India", "price": 1100, "rating": 4.9, "matches": 150, "image": "https://i.ibb.co.com/KjX0NSdF/Jasprit-Bumrah.webp" },
+
+  { "id": 13, "name": "Mitchell Starc", "role": "Bowler", "bowlingStyle": "Left-Hand Bowler", "team": "Australia", "price": 1080, "rating": 4.7, "matches": 170, "image": "https://i.ibb.co.com/SDHdmdSy/Mitchell-Starc.webp" },
+
+  { "id": 14, "name": "Shaheen Afridi", "role": "Bowler", "bowlingStyle": "Left-Hand Bowler", "team": "Pakistan", "price": 1050, "rating": 4.6, "matches": 140, "image": "https://i.ibb.co.com/9mQ9FMB8/Shaheen.webp" },
+
+  { "id": 15, "name": "Trent Boult", "role": "Bowler", "bowlingStyle": "Left-Hand Bowler", "team": "New Zealand", "price": 1040, "rating": 4.5, "matches": 160, "image": "https://i.ibb.co.com/twg4G5wx/Trent-Boult.webp" },
+
+  { "id": 16, "name": "Jos Buttler", "role": "Wicketkeeper", "battingStyle": "Right-Hand Bat", "team": "England", "price": 1150, "rating": 4.8, "matches": 200, "image": "https://i.ibb.co.com/Vc6H6xyy/Jos-Buttler.jpg" },
+
+  { "id": 17, "name": "MS Dhoni", "role": "Wicketkeeper", "battingStyle": "Right-Hand Bat", "team": "India", "price": 1100, "rating": 5.0, "matches": 350, "image": "https://i.ibb.co.com/Rkc3ddJG/MS-Dhoni.webp" },
+
+  { "id": 18, "name": "Mohammad Rizwan", "role": "Wicketkeeper", "battingStyle": "Right-Hand Bat", "team": "Pakistan", "price": 1120, "rating": 4.7, "matches": 180, "image": "https://i.ibb.co.com/MDGYm7r7/Mohammad-Rizwan.webp" },
+
+  { "id": 19, "name": "Rashid Khan", "role": "Bowler", "bowlingStyle": "Right-Hand Bowler", "team": "Afghanistan", "price": 1200, "rating": 4.9, "matches": 220, "image": "https://i.ibb.co.com/4gJsxkBf/Rashid-Khan.webp" },
+
+  { "id": 20, "name": "Muttiah Muralitharan", "role": "Bowler", "bowlingStyle": "Right-Hand Bowler", "team": "Sri Lanka", "price": 1180, "rating": 5.0, "matches": 495, "image": "https://i.ibb.co.com/mrPngLZ7/Muttiah-Muralitharan.webp" }
+]

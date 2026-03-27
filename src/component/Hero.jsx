@@ -3,7 +3,7 @@ import BannerImg from "../assets/banner-main.png"
 
 const Hero = () => {
   return (
-    <section className="flex items-center justify-center min-h-screen bg-gray-100 px-4 ">
+    <section className="flex items-center justify-center min-h-screen bg-gray-100 px-2 container mx-auto">
       
       <div className="w-full max-w-6xl rounded-2xl overflow-hidden relative">
         
