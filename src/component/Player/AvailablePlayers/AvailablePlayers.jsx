@@ -5,7 +5,7 @@ const AvailablePlayers = ({ players }) => {
     return (
        
         <div className='container mx-auto px-4 md:px-8 lg:px-12 my-10'>
-            <h2 className="text-2xl font-bold mb-6">Available Players</h2>
+            
 
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
                 {
@@ -45,6 +45,11 @@ const AvailablePlayers = ({ players }) => {
                                     <p className="text-right">Matches: {player.matches}</p>
                                 </div>
 
+                                <div className="flex justify-between items-center gap-4 font-bold text-500 text-sm">
+                                    <p className="text-left">BowlingStyle</p>
+                                    <p className="text-right">BattingStyle</p>
+                                </div>
+
                                 <div className="flex justify-between items-center gap-4 font-semibold text-gray-500 text-sm mb-4">
                                     <p className="text-left">{player.bowlingStyle || "N/A"}</p>
                                     <p className="text-right">{player.battingStyle || "N/A"}</p>
@@ -53,7 +58,7 @@ const AvailablePlayers = ({ players }) => {
                                 
                                 <div className="card-actions justify-between items-center mt-2">
                                     <p className='font-bold text-lg'>Price: ${player.price}</p>
-                                    <button className="btn btn-sm btn-outline hover:bg-[#E7FE29] hover:text-black border-gray-300 transition-all">
+                                    <button className="btn btn-sm btn-outline  hover:text-black border-gray-300 transition-all">
                                         Choose Player
                                     </button>
                                 </div>
