@@ -10,15 +10,17 @@ const fetchPlayer = async()=> {
 };
 
 
-const playerPromise = fetchPlayer();
+
 function App() {
+  const playerPromise = fetchPlayer();
+  const [coin, setCoin] =useState(50000)
 
   return (
     <>
-     <NevBar></NevBar>
+     <NevBar coin={coin}></NevBar>
      <Hero></Hero>
      <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
-      <Player playerPromise={playerPromise}></Player>
+      <Player playerPromise={playerPromise} setCoin={setCoin} coin={coin}></Player>
      </Suspense>
     </>
   )

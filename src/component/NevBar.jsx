@@ -2,7 +2,7 @@ import React from 'react';
 import CurrencyImg from "../assets/Currency.png";
 import LogoImg from "../assets/logo.png";
 
-const NevBar = () => {
+const NevBar = ({coin}) => {
     return (
         <div className="navbar bg-base-100 shadow-sm sticky top-0 z-50 container mx-auto">
             
@@ -35,7 +35,7 @@ const NevBar = () => {
             </div>
 
             <div className="navbar-end gap-2 font-bold">
-                <span>0 Coin</span>
+                <span>{coin} Coin</span>
                 <img src={CurrencyImg} alt="coin" className="h-6" />
             </div>
 
